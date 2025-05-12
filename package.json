@@ -4,7 +4,9 @@
   "description": "API for CIS218 ",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "index.js",
+    "test": "jest --coverage --verbose",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
