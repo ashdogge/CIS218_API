@@ -7,5 +7,15 @@
     "test": "test"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "js-yaml": "^4.1.0",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
+  }
 }
