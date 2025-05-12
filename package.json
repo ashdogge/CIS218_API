@@ -1,0 +1,11 @@
+{
+  "name": "cis218_api",
+  "version": "1.0.0",
+  "description": "API for CIS218 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
