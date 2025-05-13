@@ -26,23 +26,33 @@ const RecordSchema = mongoose.Schema({
     type:String,
     required:true
   },
+  ID: {
+    type:Int,
+    required:true
+  },
   description: {
     type:String,
+    required:true
   },
   price: {
     type:Double,
+    required:true
   },
   rating:{
     type:Int,
+    required:true
   },
   image: {
-    type:String
+    type:String,
+    required:true
   },
   date_modified: {
-    type:String
+    type:String,
+    required:true
   },
   date_created: {
-    type:String
+    type:String,
+    required:true
   }
 
 });
