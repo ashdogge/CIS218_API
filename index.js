@@ -3,8 +3,8 @@ require("dotenv").config();
 const YAML = require("js-yaml");
 const fs = require("fs");
 const path = require("path");
-// const mongoose = require("mongoose");
-// mongoose.connect(process.env.MONGO).catch((error) => console.log);
+const mongoose = require("mongoose");
+mongoose.connect(process.env.MONGO).catch((error) => console.log);
 
 const app = express();
 const PORT = process.env.PORT || 3000;
